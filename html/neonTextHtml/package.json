@@ -1,0 +1,31 @@
+{
+  "name": "neoneffect",
+  "version": "1.0.0",
+  "description": "neon effect ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ju4nmoreno/neon_effect.git"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "juan moreno",
+  "license": "ISC",
+  "scripts": {
+    "start": "webpack-dev-server --open"
+  },
+  "bugs": {
+    "url": "https://github.com/ju4nmoreno/neon_effect/issues"
+  },
+  "homepage": "https://ju4nmoreno.github.io/neon_effect/",
+  "devDependencies": {
+    "webpack-dev-server": "^2.9.4",
+    "webpack": "^4.43.0"
+  }
+}
+ 

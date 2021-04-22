@@ -1,0 +1,17 @@
+picture {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100px;
+}
+
+img {
+  box-shadow: 3px 3px 3px black;
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+img.enabled {
+  opacity: 0.5;
+}

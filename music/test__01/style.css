@@ -1,0 +1,58 @@
+html,
+body {
+    /* height: 100vh; */
+    margin: 0;
+}
+body {
+    background-color: black;
+    transition: background-color 0.5s ease-out;
+}
+#main {
+    width: 100%;
+    position: relative;
+}
+
+#element1 {
+    margin-top: 100px;
+}
+
+#element2 {
+}
+
+#element3 {
+}
+
+.container {
+    margin: 5px 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container > div {
+    width: 250px;
+    height: 300px;
+    background-color: red;
+}
+
+.addcolor {
+    background-color: blue;
+    transition: background-color 1s ease-out;
+}
+
+#element1 .card-wrapper {
+    position: absolute;
+    left: -300px;
+}
+
+#element1 .anima-card-wrapper {
+    left: calc(50% - 125px);
+    transition: left 0.8s 0.5s ease-out;
+}
+
+.card-wrapper h2 {
+    margin: -25px 0 0 -8px;
+    font-size: 98px;
+}
